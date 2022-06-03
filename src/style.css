@@ -1,0 +1,97 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.main{ 
+    width: 100%;
+    background-image: url("C:\Users\HP\Documents\hd\SimpleHTR\src\bg1.jpeg");
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url("C:\Users\HP\Documents\hd\SimpleHTR\src\bg1.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 110px;
+    margin: auto;
+    background-color: #663399 ;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo-image{
+    height: 75px;
+    width: 115px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    color: #ccccff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    display: inline;
+}
+.logo:hover{
+    color: white;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ccccff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: white;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+}
+h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#fileSelection{
+    padding-top: 50px;
+}
